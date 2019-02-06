@@ -1,0 +1,9 @@
+---
+# tasks file for openshift_applier_replace
+- name: replace file content
+  replace:
+    path: "{{ item }}"
+    regexp: "{{ regexp }}"
+    replace: "{{ replace }}"
+  with_fileglob: "{{ file }}"
+  when: file is defined

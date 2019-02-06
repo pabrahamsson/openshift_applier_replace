@@ -1,0 +1,26 @@
+galaxy_info:
+  author: Petter Abrahamsson
+  description: Pre/Post role for Openshift Applier
+  company: Red Hat
+  license: Apache
+  min_ansible_version: 1.2
+  #
+  # platforms is a list of platforms, and each platform has a name and a list of versions.
+  #
+  # platforms:
+  # - name: Fedora
+  #   versions:
+  #   - all
+  #   - 25
+  # - name: SomePlatform
+  #   versions:
+  #   - all
+  #   - 1.0
+  #   - 7
+  #   - 99.99
+  galaxy_tags:
+  - openshift
+  - applier
+  - replace
+  - regex
+dependencies: []
